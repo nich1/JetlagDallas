@@ -3,9 +3,9 @@ import NavLogin from "./navLogin"
 import Image from "next/image"
 export default function NavBar() {
     return (
-        <div className="flex justify-around items-center">
+        <div className=" py-4 flex justify-around items-center">
             <Image
-                src="/logo.png"
+                src="/words.png"
                 width={300}
                 height={300}
                 alt={"JetLag Dallas"}
