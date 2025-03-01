@@ -8,6 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Zain", "sans-serif"],
+        zain: ["Zain", "sans-serif"],
+        goth: ["UnifrakturCook", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        barrio: ["Barrio", "sans-serif"],      
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

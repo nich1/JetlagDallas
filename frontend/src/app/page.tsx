@@ -1,8 +1,8 @@
+import NavBar from "./navBar";
 export default function Home() {
   return (
     <div>
-      A Cabreash and Niclumia productions
-      xd
+        <NavBar></NavBar>
     </div>
   );
 }
